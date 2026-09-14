@@ -53,3 +53,19 @@ dkms.conf
 
 # debug information files
 *.dwo
+
+# Visual Studio 내부 캐시
+.vs/
+*.suo
+*.user
+*.db
+*.ipch
+*.vsidx
+
+# 빌드 산출물
+Debug/
+Release/
+x64/
+*.obj
+*.exe
+*.pdb
